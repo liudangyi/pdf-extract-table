@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="http://cdn.bootcss.com/bootstrap/4.0.0-alpha.2/css/bootstrap.css" rel="stylesheet">
+    <style>
+      .page {
+        position: relative;
+      }
+      .placeholder {
+        position: absolute;
+        top: 200px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 500px;
+        padding: 20px;
+        text-align: center;
+        border: 3px dashed rgb(255, 210, 74);
+        color: rgb(255, 210, 74);
+        border-radius: 10px;
+        font-size: 24px;
+        background-color: white;
+      }
+      .loaded .placeholder {
+        display: none;
+      }
+      .droppable .placeholder {
+        opacity: 0.5;
+      }
+      .loaded.droppable .placeholder {
+        display: block;
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container clearfix">
+      <div id="viewerContainer">
+        <div id="viewer">
+        </div>
+        <div class="placeholder">Drag your file here.</div>
+      </div>
+    </div>
+    <script src="/dist/main.js" charset="utf-8"></script>
+  </body>
+</html>

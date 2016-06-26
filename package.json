@@ -8,15 +8,17 @@
   },
   "author": "Dangyi Liu <LeedyPKU@gmail.com>",
   "private": true,
-  "dependencies": {
-    "pdfjs-dist": "^1.5.309"
-  },
   "devDependencies": {
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
     "babel-plugin-transform-runtime": "^6.0.0",
     "babel-preset-es2015": "^6.0.0",
     "babel-preset-stage-2": "^6.0.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.9.0",
+    "pdfjs-dist": "^1.5.309",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
     "webpack": "^1.13.1"
   }
 }
