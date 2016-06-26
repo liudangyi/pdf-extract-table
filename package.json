@@ -1,0 +1,22 @@
+{
+  "name": "pdf-extract-table",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dangyi Liu <LeedyPKU@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "pdfjs-dist": "^1.5.309"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "webpack": "^1.13.1"
+  }
+}
